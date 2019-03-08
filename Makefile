@@ -2,4 +2,4 @@ init:
 	pip install -r requirements.txt
 
 test:
-	nosetests tests
+	python2 /usr/bin/nosetests tests
