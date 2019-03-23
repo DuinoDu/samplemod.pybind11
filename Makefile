@@ -7,3 +7,9 @@ test:
 install:
 	rm -r ~/.local/lib/python2.7/site-packages/sample
 	cp -r sample ~/.local/lib/python2.7/site-packages/
+
+lint:
+	pylint sample --reports=n
+
+lintfull:
+	pylint sample
