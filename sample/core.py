@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+""" Short description
+Long description
+"""
+
+__all__ = ['hmm']
 
 
 def get_hmm():
