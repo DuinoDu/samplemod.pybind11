@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'sample'
-copyright = u'2012, Kenneth Reitz'
+copyright = u'YEAR, USER'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -228,7 +228,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'sample', u'sample Documentation',
-   u'Kenneth Reitz', 'sample', 'One line description of project.',
+   u'USER', 'sample', 'One line description of project.',
    'Miscellaneous'),
 ]
 
