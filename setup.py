@@ -33,6 +33,6 @@ setup(
     package_dir={'': 'src'},
     include_package_data=True,
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
-    install_requires=[],
+    install_requires=requires,
     entry_points={"console_scripts": ["sample = sample.cli:main"]},
 )
