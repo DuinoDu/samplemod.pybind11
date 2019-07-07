@@ -2,8 +2,8 @@ install:
 	python3.6 setup.py install
 
 uninstall:
-	@python3.6 setup.py install --record install.log
-	@cat install.log | xargs rm -rf 
+	python3.6 setup.py install --record install.log
+	cat install.log | xargs rm -rf 
 	@rm install.log
 
 clean:
