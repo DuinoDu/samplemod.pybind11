@@ -17,8 +17,6 @@ with open('requirements.txt', 'r') as f:
         if not line.startswith('#'):
             requires.append(line)
 
-__import__('ipdb').set_trace()
-
 with io.open("src/sample/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r'__version__ = \'(.*?)\'', f.read()).group(1)
 
