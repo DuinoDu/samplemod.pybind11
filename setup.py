@@ -12,12 +12,12 @@ with open('LICENSE', 'r') as f:
 
 with open('requirements.txt', 'r') as f:
     requires = []
-    for line in f.readline():
+    for line in f:
         line = line.strip()
         if not line.startswith('#'):
             requires.append(line)
-    __import__('ipdb').set_trace()
 
+__import__('ipdb').set_trace()
 
 with io.open("src/sample/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r'__version__ = \'(.*?)\'', f.read()).group(1)
