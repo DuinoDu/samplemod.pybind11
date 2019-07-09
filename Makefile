@@ -7,7 +7,7 @@ uninstall:
 	@rm install.log
 
 clean:
-	@rm -rf build dist
+	@rm -rf build dist src/*.egg-info
 
 test:
 	python3.6 /usr/bin/nosetests -s tests
