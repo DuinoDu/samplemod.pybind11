@@ -29,6 +29,8 @@ setup(
     author_email='duino472365351@gmail.com',
     url='https://github.com/user/sample',
     license=license,
+    platform='linux',
+    zip_safe=False,
     packages=find_packages("src"),
     package_dir={'': 'src'},
     include_package_data=True,
