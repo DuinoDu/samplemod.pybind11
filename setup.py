@@ -21,7 +21,7 @@ with io.open("src/sample/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r'__version__ = \'(.*?)\'', f.read()).group(1)
 
 setup(
-    name='sample',
+    name='libname',
     version=version,
     description='TODO',
     long_description=readme,
