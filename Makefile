@@ -11,7 +11,7 @@ clean:
 	@rm -rf build dist src/*.egg-info
 
 test:
-	$(python) /usr/bin/nosetests -s tests
+	$(python) /usr/bin/nosetests -s tests --nologcapture
 
 lint:
 	pylint sample --reports=n
