@@ -14,10 +14,10 @@ test:
 	$(python) /usr/bin/nosetests -s tests --nologcapture
 
 lint:
-	pylint sample --reports=n
+	pylint src/sample --reports=n
 
 lintfull:
-	pylint sample
+	pylint src/sample
 
 install:
 	$(python) setup.py install --user
