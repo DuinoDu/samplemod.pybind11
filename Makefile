@@ -13,6 +13,9 @@ clean:
 test:
 	$(python) /usr/bin/nosetests -s tests --nologcapture
 
+pep8:
+	autopep8 src/sample --recursive -i
+
 lint:
 	pylint src/sample --reports=n
 
