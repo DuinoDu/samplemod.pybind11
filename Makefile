@@ -9,7 +9,7 @@ clean:
 	@rm -rf build dist src/*.egg-info
 
 test:
-	python /usr/bin/nosetests -s tests --verbosity=2 --rednose
+	python /usr/bin/nosetests -s tests --verbosity=2 --rednose --nologcapture
 
 pep8:
 	autopep8 src/sample --recursive -i
