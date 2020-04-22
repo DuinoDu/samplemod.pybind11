@@ -4,7 +4,7 @@
 #include <limits>
 #include <unordered_map>
 
-#include "sample.h"
+#include "module.h"
 
 namespace SAMPLE_NAMESPACE {
 namespace py = pybind11;

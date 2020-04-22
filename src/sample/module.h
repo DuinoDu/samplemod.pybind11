@@ -1,16 +1,16 @@
-#ifndef SAMPLE_H
-#define SAMPLE_H
+#ifndef MODULE_H
+#define MODULE_H
 
 #include <string>
 
 
 namespace SAMPLE_NAMESPACE {
 
-class Sample
+class Module
 {
 public:
   void set_name(std::string);
-  void print();
+  void hello();
 
 private:
   std::string _name;
@@ -19,4 +19,4 @@ private:
 
 } // namespace SAMPLE_NAMESPACE
 
-#endif /* SAMPLE_H */
+#endif /* MODULE_H */
