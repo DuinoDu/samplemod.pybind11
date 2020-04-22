@@ -1,6 +1,6 @@
 # Minimum CMake required
 cmake_minimum_required(VERSION 3.1)
-project(libname C CXX)
+project(libsample C CXX)
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 ## set args
