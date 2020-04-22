@@ -7,6 +7,8 @@ upload:
 
 clean:
 	@rm -rf build dist src/*.egg-info
+	@rm -rf src/sample/*.so
+	@rm -rf .setuptools-cmake-build
 
 test:
 	python /usr/bin/nosetests -s tests --verbosity=2 --rednose --nologcapture

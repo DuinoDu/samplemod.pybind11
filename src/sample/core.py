@@ -3,14 +3,12 @@
 Long description
 """
 
-__all__ = ['hmm']
+import sample.sample_cpp2py_export as _C
 
 
-def get_hmm():
-    """Get a thought."""
-    return 'hmmm...'
+__all__ = ['hello']
 
 
-def hmm():
-    """Contemplation..."""
-    print(get_hmm())
+def hello():
+    s = _C.submodule
+    print(s.__doc__)

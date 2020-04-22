@@ -92,3 +92,4 @@ ENV/
 
 *.swo
 *.swp
+.setuptools-cmake-build
